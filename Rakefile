@@ -13,8 +13,8 @@ Jeweler::Tasks.new do |gemspec|
   gemspec.executables      = `git ls-files -- bin/*`.split("\n").map{|f| File.basename(f)}
   gemspec.files            = `git ls-files`.split("\n")
   gemspec.extra_rdoc_files = ['CHANGELOG.rdoc', 'LICENSE', 'README.rdoc']
-  gemspec.authors          = [ 'Kannan Manickam' ]
-  gemspec.email            = [ 'arangamani.kannan@gmail.com' ]
+  gemspec.authors          = [ 'ohmyshirt' ]
+  gemspec.email            = [ 'mike@michaelherrera.net' ]
   gemspec.homepage         = 'https://github.com/ohmyshirt/jenkins_api_client'
   gemspec.summary          = 'Jenkins JSON API Client'
   gemspec.description      = %{
