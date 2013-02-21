@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.version = "0.8.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Kannan Manickam"]
+  s.authors = ["ohmyshirt"]
   s.date = "2013-02-21"
   s.description = "\nThis is a simple and easy-to-use Jenkins Api client with features focused on\nautomating Job configuration programaticaly and so forth"
-  s.email = ["arangamani.kannan@gmail.com"]
+  s.email = ["mike@michaelherrera.net"]
   s.executables = ["jenkinscli"]
   s.files = [
     ".gitignore",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "bin/jenkinscli",
     "config/login.yml.example",
+    "jenkins_api_client.gemspec",
     "lib/jenkins_api_client.rb",
     "lib/jenkins_api_client/build_queue.rb",
     "lib/jenkins_api_client/cli/base.rb",
