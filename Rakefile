@@ -15,7 +15,7 @@ Jeweler::Tasks.new do |gemspec|
   gemspec.extra_rdoc_files = ['CHANGELOG.rdoc', 'LICENSE', 'README.rdoc']
   gemspec.authors          = [ 'Kannan Manickam' ]
   gemspec.email            = [ 'arangamani.kannan@gmail.com' ]
-  gemspec.homepage         = 'https://github.com/arangamani/jenkins_api_client'
+  gemspec.homepage         = 'https://github.com/ohmyshirt/jenkins_api_client'
   gemspec.summary          = 'Jenkins JSON API Client'
   gemspec.description      = %{
 This is a simple and easy-to-use Jenkins Api client with features focused on
